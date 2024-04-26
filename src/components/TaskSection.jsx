@@ -3,7 +3,6 @@ import Modal from "./Modal";
 import SearchForm from "./SearchForm";
 import TaskTable from "./TaskTable";
 import TaskContext from "../context/taskContext";
-import usePopupControl from "../hook/usePopUpControl";
 
 export default function TaskSection() {
   const { deleteAllTasks } = useContext(TaskContext);

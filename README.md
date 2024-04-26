@@ -19,9 +19,9 @@ To start the application, run `npm start` and open http://localhost:5114 in your
 ### Clone project
 
 ```javascript
-// https://github.com/Learn-with-Sumit/assignment-3-improve-tasker-md-rejoyan-islam.git
+//https://github.com/md-rejoyan-islam/tasker.git
 ```
 
 ### Live Preview
 
-<a href="https://improve-tasker.netlify.app/">Preview</a>
+<a href="https://easy-tasker-app.netlify.app">Preview</a>
