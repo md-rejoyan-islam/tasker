@@ -14,5 +14,21 @@
     "priority": "Medium",
     "isFavorite": false,
     "tags": ["api", "nodejs", "express"]
+  },
+  {
+    "id": 3,
+    "title": "Database Migration",
+    "description": "Migrate data from a third-party database to a new database, ensuring data integrity and security.",
+    "priority": "Low",
+    "isFavorite": false,
+    "tags": ["database", "migration", "security"]
+  },
+  {
+    "id": 4,
+    "title": "React Component Development",
+    "description": "Develop reusable React components for a web application, ensuring high performance and responsiveness.",
+    "priority": "High",
+    "isFavorite": true,
+    "tags": ["react", "component", "performance"]
   }
 ]

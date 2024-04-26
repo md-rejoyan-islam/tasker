@@ -107,7 +107,12 @@ export default function Form({ modalToggle, title, data }) {
         <div className="grid-cols-2 gap-x-4 max-md:space-y-9 md:grid lg:gap-x-10 xl:gap-x-20">
           {/* tags  */}
           <div className="space-y-2 lg:space-y-3">
-            <label htmlFor="tags">Tags</label>
+            <label htmlFor="tags">
+              Tags{" "}
+              <span className="text-sm text-red-200">
+                (value separate by comma)
+              </span>
+            </label>
             <input
               className="block w-full rounded-md bg-[#2D323F] px-3 py-2.5 focus:outline-none  focus:ring-4 ring-zinc-600"
               type="text"
