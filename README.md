@@ -1,4 +1,4 @@
-## Improve Tasker
+## Tasker
 
 Tasker is a web application that allows users to easily add, remove, update, and search tasks. The application is built using React and Tailwind CSS.In this project use react context and reducer for state-managment.
 
