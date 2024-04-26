@@ -69,6 +69,7 @@ export default function Form({ modalToggle, title, data }) {
     <form
       className="mx-auto  w-full max-w-[740px] rounded-xl border  border-[#FEFBFB]/[36%] bg-[#191D26] p-9 max-md:px-4  lg:p-11"
       onSubmit={handleSubmit}
+      id="form"
     >
       <h2 className="mb-9 text-center text-2xl font-bold text-white lg:mb-11 lg:text-[28px]">
         {title}
@@ -80,24 +81,26 @@ export default function Form({ modalToggle, title, data }) {
         <div className="space-y-2 lg:space-y-3">
           <label htmlFor="title">Title</label>
           <input
-            className="block w-full rounded-md bg-[#2D323F] px-3 py-2.5"
+            className="block w-full rounded-md bg-[#2D323F] px-3 py-2.5 focus:outline-none  focus:ring-4 ring-zinc-600"
             type="text"
             name="title"
             value={fields.title}
             id="title"
             onChange={handleInputChange}
+            tabIndex="1"
           />
         </div>
         {/* description  */}
         <div className="space-y-2 lg:space-y-3">
           <label htmlFor="description">Description</label>
           <textarea
-            className="block min-h-[120px] w-full rounded-md bg-[#2D323F] px-3 py-2.5 lg:min-h-[180px]"
+            className="block min-h-[120px] w-full rounded-md bg-[#2D323F] px-3 py-2.5 lg:min-h-[180px] focus:outline-none  focus:ring-4 ring-zinc-600"
             type="text"
             name="description"
             value={fields.description}
             onChange={handleInputChange}
             id="description"
+            tabIndex="2"
           ></textarea>
         </div>
         {/* input group  */}
@@ -106,23 +109,25 @@ export default function Form({ modalToggle, title, data }) {
           <div className="space-y-2 lg:space-y-3">
             <label htmlFor="tags">Tags</label>
             <input
-              className="block w-full rounded-md bg-[#2D323F] px-3 py-2.5"
+              className="block w-full rounded-md bg-[#2D323F] px-3 py-2.5 focus:outline-none  focus:ring-4 ring-zinc-600"
               type="text"
               name="tags"
               value={fields.tags}
               onChange={handleInputChange}
               id="tags"
+              tabIndex="3"
             />
           </div>
           {/* priority  */}
           <div className="space-y-2 lg:space-y-3">
             <label htmlFor="priority">Priority</label>
             <select
-              className="block w-full cursor-pointer rounded-md bg-[#2D323F] px-3 py-2.5"
+              className="block w-full cursor-pointer rounded-md bg-[#2D323F] px-3 py-2.5 focus:outline-none  focus:ring-4 ring-zinc-600"
               name="priority"
               id="priority"
               onChange={handleInputChange}
               defaultValue={fields.priority}
+              tabIndex="4"
             >
               <option defaultValue="">Select Priority</option>
               <option defaultValue="low">Low</option>
