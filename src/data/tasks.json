@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Integration API",
+    "description": "Connect an existing API to a third-party database using secure methods and handle data exchange efficiently.",
+    "priority": "High",
+    "isFavorite": true,
+    "tags": ["api", "database", "security"]
+  },
+  {
+    "id": 2,
+    "title": "API Data Synchronization with Python",
+    "description": "CImplement a Python solution to synchronize data between an API and a third-party database securely, optimizing data exchange.",
+    "priority": "Medium",
+    "isFavorite": false,
+    "tags": ["api", "nodejs", "express"]
+  }
+]
