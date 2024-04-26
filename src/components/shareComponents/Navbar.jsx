@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="xl:max-w-[1350px] container mx-auto flex items-center justify-between gap-x-6">
         {/* Logo  */}
         <a href="/" className="flex gap-2 items-center">
-          <img className="h-[45px]" src={logo} alt="Lws" />{" "}
+          <img className="h-[45px]" src={logo} alt="tasker" />
           <span className="text-[#f5bf42] text-2xl font-bold">Tasker</span>
         </a>
         {/* Logo Ends  */}
