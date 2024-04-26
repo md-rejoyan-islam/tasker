@@ -5,7 +5,7 @@ import TaskContext from "../context/taskContext";
 export default function Form({ modalToggle, title, data }) {
   // data from context
   const { addTask, message, updateTask } = useContext(TaskContext);
-  
+
   // fields state
   const [fields, setFields] = useState(
     data || {

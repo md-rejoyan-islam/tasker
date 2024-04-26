@@ -6,9 +6,6 @@ import TaskContext from "../context/taskContext";
 import usePopupControl from "../hook/usePopUpControl";
 
 export default function TaskSection() {
-  // popup control
-  const { isOpen, toggleMenu, dropDownRef } = usePopupControl();
-
   const { deleteAllTasks } = useContext(TaskContext);
   const [showModal, setShowModal] = useState(false);
 
@@ -39,7 +36,7 @@ export default function TaskSection() {
                 <SearchForm />
                 <button
                   className="rounded-md bg-blue-500 hover:bg-blue-600 px-3.5 py-2.5 text-sm font-semibold"
-                  onClick={() => toggleMenu()}
+                  onClick={() => setShowModal(!showModal)}
                 >
                   Add Task
                 </button>
@@ -60,8 +57,11 @@ export default function TaskSection() {
       </section>
 
       {/* modal  */}
-      {isOpen && (
-        <Modal title="Add New Task" modalToggle={() => toggleMenu()} />
+      {showModal && (
+        <Modal
+          title="Add New Task"
+          modalToggle={() => setShowModal(!showModal)}
+        />
       )}
     </>
   );
