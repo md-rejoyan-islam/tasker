@@ -10,6 +10,7 @@ To install Improve Tasker, clone the repository from GitHub and run `npm install
 
 - react
 - tailwindcss
+- state management (react context, recat reducer)
 
 ### Usage
 
