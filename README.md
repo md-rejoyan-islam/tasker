@@ -19,7 +19,7 @@ To start the application, run `npm start` and open http://localhost:5114 in your
 ### Clone project
 
 ```javascript
-//https://github.com/md-rejoyan-islam/tasker.git
+https://github.com/md-rejoyan-islam/tasker.git
 ```
 
 ### Live Preview
