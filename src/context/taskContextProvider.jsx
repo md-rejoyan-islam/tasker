@@ -2,7 +2,6 @@ import { useReducer } from "react";
 
 import {
   ADD_TASK,
-  ALL_TASKS,
   DELETE_ALL_TASKS,
   DELETE_TASK,
   MESSAGE_ERROR_EMPTY,
@@ -12,8 +11,6 @@ import {
 } from "../reducers/reducerTypes";
 import TaskContext from "./taskContext";
 import taskReducer, { initialState } from "../reducers/taskReducer";
-import { toast } from "react-toastify";
-import db from "../data/tasks.json";
 
 // task context provider
 const TaskContextProvider = ({ children }) => {

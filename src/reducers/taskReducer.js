@@ -1,7 +1,6 @@
 import tasksData from "../data/tasks.json";
 import {
   ADD_TASK,
-  ALL_TASKS,
   DELETE_ALL_TASKS,
   DELETE_TASK,
   MESSAGE_ERROR_EMPTY,
