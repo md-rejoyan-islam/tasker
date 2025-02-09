@@ -22,6 +22,17 @@ To start the application, run `npm start` and open http://localhost:5114 in your
 https://github.com/md-rejoyan-islam/tasker.git
 ```
 
-### Live Preview
+### Links
 
-<a href="https://easy-tasker-app.netlify.app">Preview</a>
+<a href="https://easy-tasker-app.netlify.app">Preview Link</a>
+
+<a href="https://github.com/md-rejoyan-islam/tasker">GitHub Repository</a>
+
+### Contact
+
+If you have any questions or suggestions, feel free to reach out:
+
+- Email : rejoyanislam0014@gmail.com
+- GitHub : [Rejoyan Islam GitHub](https://github.com/md-rejoyan-islam)
+- LinkedIn : [Rejoyan Islam LinkedIn](https://www.linkedin.com/in/md-rejoyan-islam/)
+- Personal Website : [Rejoyan Islam Portfolio](https://md-rejoyan-islam.github.io/)
